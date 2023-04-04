@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+    padding-top: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.email,
+.phone,
+.name,
+.street,
+.city,
+.country,
+.postal {
+    padding-top: 10px;
+}
+
+.phone i,
+.email i,
+.name i,
+.street i,
+.city i,
+.country i,
+.postal i {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 12px;
+    border: none;
+    background: none;
+    color: #828282;
+    font-size: 18px;
+}
+
+.email > label,
+.phone > label,
+.name > label,
+.street > label,
+.city > label,
+.country > label,
+.postal > label {
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+.email > input,
+.phone > input,
+.name > input,
+.street > input,
+.city > input {
+    box-sizing: border-box;
+    width: 465px;
+    height: 56px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding-left: 45px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.email > input::placeholder,
+.phone > input::placeholder,
+.name > input::placeholder,
+.street > input::placeholder,
+.city > input::placeholder,
+.postal > input::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.address > h3 {
+    padding-top: 50px;
+}
+
+.endaddress {
+    display: flex;
+    flex-direction: row;
+}
+
+.postal {
+    padding-left: 30px;
+}
+
+.postal > input,
+.country > select {
+    box-sizing: border-box;
+    width: 217px;
+    height: 56px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding-left: 40px;
+}
+
+.postal > input {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.country > select {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.checkbox > input {
+    width: 21px;
+    height: 21px;
+    
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    padding-top: 20px;
+}
+
+.button {
+    float: right;
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    border:#ffffff
+}
+
+.container > .order {
+    height: 535px;
+    width: 383px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1,
+.item2 {
+    background: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.item1 > img,
+.item2 > img {
+    height: 136px;
+    width: 134px;
+    border-radius: 13px;
+    background: inherit;
+    /* padding-right: 20px; */
+}
+
+.item1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item2 {
+    width: 304.29px;
+    padding-bottom: 100px;
+}
+
+.backpack,
+.shoes,
+.price,
+.sale,
+.retail,
+.input-group,
+h4 {
+    background: inherit;
+}
+
+.backpack,
+.shoes {
+    padding-left: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4E5150;
+    padding-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sale {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F2994A;
+    padding-right: 10px;
+}
+
+.retail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4E5150;
+    text-decoration-line: line-through;
+    padding-top: 5px;
+}
+
+.input-group {
+    box-sizing: border-box;
+    width: 134px;
+    height: 52px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-minus,
+.button-plus {
+    height: 21px;
+    width: 21px;
+    background: #E0E0E0;
+    border-radius: 4px;
+    border: none;
+}
+
+.quantity-field {
+    width: 20px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    background: inherit;
+    border: none;
+    text-align: center;
+}
+
+.shipping,
+.total {
+    display: flex;
+    width: 304px;
+    height: 30px;
+    justify-content: space-between;
+    background: inherit;
+    align-items: center;
+}
+
+.shipping {
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.total {
+    padding-top: 2px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    background: inherit;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    background: inherit;
+}
+
+footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        padding-top: 20px;
+    }
+
+    .contact {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container {
+        padding-top: 15px;
+    }
+
+    .email > input,
+    .phone > input,
+    .name > input,
+    .street > input,
+    .city > input {
+        width: 349px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .postal > input,
+    .country > select {
+    width: 162px;
+    height: 40px;
+    font-size: 12px;
+}
+
+    .email > input::placeholder,
+    .phone > input::placeholder,
+    .name > input::placeholder,
+    .street > input::placeholder,
+    .city > input::placeholder,
+    .postal > input::placeholder {
+        font-size: 12px;
+    }
+
+    .phone i,
+    .email i,
+    .name i,
+    .street i,
+    .city i,
+    .country i,
+    .postal i {
+        font-size: 12px;
+    }
+
+    .checkbox {
+        font-size: 10px;
+    }
+
+    .container > .order {
+        width: 350px;
+        height: 489px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .item2 {
+        width: auto;
+        padding-bottom: 70px;
+    }
+
+}
